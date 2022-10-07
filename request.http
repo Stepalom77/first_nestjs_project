@@ -1,0 +1,14 @@
+### List all messages
+GET  http://localhost:7700/messages
+
+### Create new message
+POST  http://localhost:7700/messages
+content-type: application/json
+
+{
+    "content": "Hi there!"
+}
+
+### Get one message
+
+GET  http://localhost:7700/messages/1
