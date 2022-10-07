@@ -6,7 +6,7 @@ POST  http://localhost:7700/messages
 content-type: application/json
 
 {
-    "content": "Hi there!"
+    "content": "NestJS is very good"
 }
 
 ### Get one message
